@@ -1,0 +1,26 @@
+<!-- home.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/css/estilohome.css"> 
+</head>
+<body>
+  <% if (usuario && usuario.nome) { %>
+    <nav>
+   
+      <a href="busca">Busca</a>
+      <a href="login">Login</a>
+      <a href="cadastro">Cadastro</a>
+      <a style="float:right" href="#">Sair</a>
+    </nav>
+    <h1>Boas vindas ao site, <%= usuario.nome %></h1>
+    <p>Perfil do Usuário: <%= usuario.perfil %></p>
+  <% } else { %>
+    <p>Usuário não autenticado</p>
+  <% } %>
+</body>
+</html>

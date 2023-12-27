@@ -1,0 +1,40 @@
+/* Adicione estilos para o cabeçalho da página de resultado de busca */
+h1 {
+    color: #333; /* Cor do texto */
+    text-align: center;
+  }
+  
+  /* Adicione estilos para a mensagem de usuário não encontrado */
+  p {
+    color: #999; /* Cor do texto cinza */
+  }
+  
+  /* Adicione estilos para a lista de detalhes do usuário */
+  ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+  }
+  
+  /* Adicione estilos para os links de alteração e exclusão */
+  a {
+    display: inline-block; /* Exibir links em linha */
+    margin-right: 10px; /* Espaçamento à direita entre os links */
+    background-color: #007BFF; /* Cor de fundo dos links */
+    color: white; /* Cor do texto dos links */
+    padding: 5px 10px; /* Preenchimento interno dos links */
+    text-decoration: none; /* Remover decoração de link */
+  }
+  
+  /* Adicione estilos para o link de voltar */
+  a.back-link {
+    display: block; /* Cada link em uma nova linha */
+    margin-top: 10px; /* Espaçamento superior entre os links */
+    text-align: center; /* Alinhar o link ao centro */
+    color: #007BFF; /* Cor do link azul */
+    text-decoration: none; /* Remover decoração de link */
+  }
+  

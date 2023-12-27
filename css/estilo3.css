@@ -1,0 +1,39 @@
+/* Adicione estilos para o cabeçalho da página de exclusão de usuário */
+h1 {
+    color: #333; /* Cor do texto */
+    text-align: center;
+  }
+  
+  /* Adicione estilos para a mensagem de não encontrado */
+  p {
+    color: #999; /* Cor do texto cinza */
+  }
+  
+  /* Adicione estilos para a lista de detalhes do usuário */
+  ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+  }
+  
+  /* Adicione estilos para o botão de exclusão */
+  button {
+    background-color: #DC3545; /* Cor de fundo do botão de exclusão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 15px; /* Preenchimento interno do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor ao passar por cima do botão */
+  }
+  
+  /* Adicione estilos para o link de voltar */
+  a {
+    display: block; /* Cada link em uma nova linha */
+    margin-top: 10px; /* Espaçamento superior entre o botão e o link */
+    text-align: center; /* Alinhar o link ao centro */
+    color: #007BFF; /* Cor do link azul */
+    text-decoration: none; /* Remover decoração de link */
+  }
+  

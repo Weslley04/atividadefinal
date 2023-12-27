@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca de Usuário</title>
+  <link rel="stylesheet" href="/css/estilo1.css">
+  <style>
+    /* Adicione estilos para o cabeçalho da página de busca */
+h1 {
+  color: #333; /* Cor do texto */
+  text-align: center;
+}
+
+/* Adicione estilos para o formulário de busca */
+form {
+  max-width: 400px; /* Largura máxima do formulário */
+  margin: 0 auto; /* Centralizar o formulário na página */
+}
+
+label {
+  display: block; /* Cada label em uma nova linha */
+  margin-bottom: 10px; /* Espaçamento inferior entre os labels */
+}
+
+input {
+  width: 100%; /* Preencher a largura do contêiner pai */
+  margin-bottom: 15px; /* Espaçamento inferior entre os campos de entrada */
+}
+
+button {
+  background-color: #007BFF; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 10px 15px; /* Preenchimento interno do botão */
+  border: none; /* Sem borda */
+  cursor: pointer; /* Cursor ao passar por cima do botão */
+}
+
+  </style>
+</head>
+<body>
+  <h1>Busca de Usuário</h1>
+  <form action="/resultadoBusca" method="post">
+    <label for="login">Login do Usuário:</label>
+    <input type="text" name="login" required>
+    <button type="submit">Buscar</button>
+  </form>
+</body>
+</html>

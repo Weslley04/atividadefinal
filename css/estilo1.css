@@ -1,0 +1,30 @@
+/* Adicione estilos para o cabeçalho da página */
+h1 {
+    color: #333; /* Cor do texto */
+    text-align: center;
+  }
+  
+  /* Adicione estilos para o formulário */
+  form {
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centralizar o formulário na página */
+  }
+  
+  label {
+    display: block; /* Cada label em uma nova linha */
+    margin-bottom: 10px; /* Espaçamento inferior entre os labels */
+  }
+  
+  input {
+    width: 100%; /* Preencher a largura do contêiner pai */
+    margin-bottom: 15px; /* Espaçamento inferior entre os campos de entrada */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 15px; /* Preenchimento interno do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor ao passar por cima do botão */
+  }
+  

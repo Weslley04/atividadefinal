@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado da Busca</title>
+
+  <link rel="stylesheet" href="/css/estilo4.css">
+  
+</head>
+<body>
+  <h1>Resultado</h1>
+
+  <% if (usuario) { %>
+    <p>Usuário encontrado:</p>
+    <ul>
+      <li>Login do usuário: <%= usuario.login %></li>
+      <li>Nome do usuário: <%= usuario.nome %></li>
+      <li>Perfil do usuário: <%= usuario.perfil %></li>
+    </ul>
+
+
+    <a href="/alteracao/<%= usuario.id %>">Alterar Usuário</a>
+    <a href="/exclusao/<%= usuario.id %>">Excluir Usuário</a>
+    
+  <% } else { %>
+    <p>Usuário não encontrado</p>
+  <% } %>
+
+  <a href="/busca">Voltar</a>
+</body>
+</html>
